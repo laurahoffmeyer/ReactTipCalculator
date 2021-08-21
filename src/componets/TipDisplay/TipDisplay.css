@@ -1,0 +1,42 @@
+.tip-display {
+    margin-bottom: 30px;
+}
+.tip-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.tip-child {
+    flex-basis: 100%;
+    margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 420px) {
+    .tip-child {
+        flex-basis: 48%;
+        margin-bottom: 10px;
+    }
+    .tip-child:nth-child(even) {
+        margin-left: 12px;
+    }    
+}
+@media only screen and (min-width: 920px) {
+  
+    .tip-child {
+        flex-basis: 31%;
+        margin-bottom: 10px;
+    }
+    .tip-child:nth-child(odd) {
+        margin-left: 12px;
+    }
+    .tip-child:nth-child(1) {
+        margin-left: 0px;
+    }
+    .tip-child:nth-child(4) {
+        margin-left: 0px;
+    }
+    
+}

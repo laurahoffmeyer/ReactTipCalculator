@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap'); 
+
+html {
+  --color-primary: hsl(172, 67%, 45%);
+  --color-very-dark-cyan: hsl(183, 100%, 15%);
+  --color-dark-grayish-cyan-1: hsl(186, 14%, 43%);
+  --color-dark-grayish-cyan-2: hsl(184, 14%, 56%);
+  --color-light-grayish-cyan-1: hsl(189, 41%, 97%);
+  --color-light-grayish-cyan-2: hsl(185, 41%, 84%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-cyan: #C0E5E8;
+
+  background-color: var(--color-light-cyan);
+  font-family: 'Space Mono', monospace;
+  font-size: 16px;
+}
+button:hover {
+  cursor: pointer;
+}
+label {
+  font-weight: bold;
+  color: var(--color-dark-grayish-cyan-1);
+  margin-bottom: -7px;
+  padding-bottom: 0px;
+}
+input {
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  color: var(--color-very-dark-cyan);
+  background-color: var(--color-light-grayish-cyan-1);
+  border: none;
+  border-radius: 3px;
+  padding: 5px 15px;
+  font-size: 24px;
+  text-align: right;
+  margin-bottom: 25px;
+}
+input::placeholder {
+  color: #ABC6C5;
+}
+.input-icon {
+  position: relative;
+  top: 30px;
+  left: 10px;
+  display: flex;
+  align-self: flex-start;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,21 @@
+.reset-button button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    color: var(--color-very-dark-cyan);
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-size: 18px;
+    font-family: 'Space Mono', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.reset-button .inactive {
+    opacity: .2;
+}
+.reset-button .active {
+    opacity: 1;
+}

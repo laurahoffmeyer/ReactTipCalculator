@@ -1,0 +1,36 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.labels {
+    display: flex;
+    flex-direction: column;
+}
+.labels label {
+    color: var(--color-white);
+}
+.labels span {
+    padding-top:5px;
+    font-size: 14px;
+    color: var(--color-dark-grayish-cyan-2);
+    font-weight: bold;
+}
+.amounts {
+    color: var(--color-primary);
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: bold;
+}
+@media only screen and (min-width: 920px) {
+    .amounts-display {
+        flex: 1 0 auto;
+    }
+    .row {
+        margin-top: 20px;
+    }    
+    .row:last-child {
+        margin-top: 35px;
+    }
+}

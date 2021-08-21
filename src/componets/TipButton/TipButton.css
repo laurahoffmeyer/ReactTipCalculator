@@ -1,0 +1,31 @@
+.tip-button input[type="radio"] {
+    opacity: 0;
+    display: flex;
+    margin: 0;
+}
+
+.tip-button label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--color-very-dark-cyan);
+    color: var(--color-white);
+    font-size: 24px;
+    border-radius: 4px;
+    padding: 6px 0px;
+}
+.tip-button label:hover {
+    cursor: pointer;
+}
+.tip-button input[type="radio"]:checked + label.active {
+    background-color:var(--color-primary);
+    color: var(--color-very-dark-cyan);
+}
+.tip-button input[type="radio"]:checked + label.inactive {
+    background-color: rgba(38, 192, 171, .5);
+    color: var(--color-very-dark-cyan);
+}
+/* .tip-button input[type="radio"]:focus + label {
+    
+} */

@@ -1,0 +1,9 @@
+.bill-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.bill-input input {
+    display: flex;
+    flex-direction: column;
+}

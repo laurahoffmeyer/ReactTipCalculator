@@ -1,0 +1,42 @@
+.tip-input input {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 92%;
+    top: 15px;
+    margin:0;
+}
+
+.tip-input input::placeholder {
+    color: var(--color-dark-grayish-cyan-1);
+} 
+
+/* .tip-input {
+    display: flex;
+    align-self:baseline;
+    justify-content:baseline;
+    clear: both;
+    margin-top: -20px;
+}
+
+.tip-input input {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    margin: 40px 0 0 0;
+} */
+
+@media only screen and (min-width: 420px) {
+    .tip-input input {
+        width: 86%;
+        top: 10px;
+    }
+}
+@media only screen and (min-width: 920px) {
+    .tip-input input {
+        width: 78%;
+        top: 10px;
+    }
+}
