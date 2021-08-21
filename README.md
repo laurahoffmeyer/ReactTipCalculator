@@ -1,2 +1,2 @@
 # ReactTipCalculator
-Check out this cool Tip Calculator I built using react!
+Small Tip Calculator App built with React. Challange provided by FrontendMenor.
