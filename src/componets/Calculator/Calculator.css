@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 60px 0;
+    margin: 35px 0;
     max-width: 100%;
     background-color: var(--color-white);
     border-radius: 13px;
@@ -11,11 +11,17 @@
     padding: 20px;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   }
-  
+
+@media only screen and (min-width: 420px) {
+  .calculator {
+    margin: 40px 0;
+  }
+}
 @media only screen and (min-width: 920px) {
   .calculator {
     flex-direction: row;
     align-items: stretch;
     max-width: 810px;
+    margin: 60px 0;
   }
 }
