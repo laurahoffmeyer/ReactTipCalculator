@@ -10,6 +10,7 @@ header {
 footer {
   color: var(--color-very-dark-cyan);
   margin-bottom: 50px;
+  text-align: center;
 }
 a {
   color: var(--color-very-dark-cyan);
